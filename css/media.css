@@ -1,0 +1,172 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+.nav-menu .menu-item  {
+	padding: 9px;
+	font-size: 17px;
+}
+.timer-wrap {
+	text-align: center;
+		margin-bottom: 20px;
+}
+#timer-box {
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+.features {
+	padding: 0;
+}
+.features .row {
+	padding-left: 0;
+	padding-top: 20px;
+}
+.features .row .col-md-6:first-child {
+	padding-right: 15px;
+}
+.features .row .col-md-6:last-child {
+	padding-left: 15px;
+}
+
+.features .delivery {
+	padding-bottom: 25px;
+	margin-top: 0;
+}
+
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+	
+.phone-number h3,
+header img,
+header .header-descr p,
+header button  {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+
+}
+
+.nav-menu {
+	display: none;
+}
+.nav-bar {
+	display: block;
+}
+.order-wrap {
+	width: 100%;
+}
+.order-img {
+	height: auto;
+	background-size: cover;
+	width: 100%;
+}
+.features {
+	padding: 0;
+}
+
+.features .delivery {
+	margin-top: 0;
+}
+
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+.col-xs-4-5 {
+	margin-right: auto;
+}
+
+header .header-descr {
+	text-align: center;
+}
+
+#catalog .button-box ul li {
+	padding: 7px 15px;
+	text-align: center;
+	font-size: 12px;
+}
+.pop-about-text {
+	text-align: center;
+	margin-top: 30px;
+}
+.features {
+	padding: 0;
+}
+.features .delivery {
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.features .row .col-md-6:first-child {
+	padding-right: 0;
+}
+.features .row .col-md-6:last-child {
+	padding-left: 0;
+}
+
+			
+.features .delivery .info .info-box {
+	left: 150px;
+	top: 150px;
+	z-index: 9999;
+}
+.features .container-fluid {
+	height: auto;
+}
+
+
+}
+@media only screen and (max-width : 576px) {
+
+#timer-box .timer-item {
+	margin-right: 10px;
+	width: 70px;
+	height: 80px;
+}
+
+#timer-box .timer-item .value {
+	font-size: 40px;
+}
+.phone-number {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+footer .btn-wrap button {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+.order-item img {
+	width: 80px;
+}
+.order-descr {
+	font-size: 12px;
+}
+
+footer .menu-item {
+	font-size: 12px;
+}
+
+footer .col-4 {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+}
+
+
+	
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
